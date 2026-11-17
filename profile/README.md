@@ -1,8 +1,7 @@
 <h1 align="center">Projects</h1>
 
 <p align="center">
-  <sub>Modular Websites and Meetem.<br />
-  Modular Websites et Meetem.</sub>
+  <sub>Modular Websites and Meetem.</sub>
 </p>
 
 <p align="center">
