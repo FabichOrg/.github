@@ -1,41 +1,39 @@
-<h1 align="center">Fab Org</h1>
+<h1 align="center">Projects</h1>
 
 <p align="center">
-  <strong>Two products, built in-house in Switzerland.</strong><br />
-  Deux projets, construits de A à Z en Suisse.
+  <sub>Modular Websites and Meetem.<br />
+  Modular Websites et Meetem.</sub>
 </p>
 
 <p align="center">
-  <a href="#prismea">Prismea</a> · <a href="#meetem">Meetem</a>
+  <a href="#modular-websites">Modular Websites</a> · <a href="#meetem">Meetem</a>
 </p>
 
 ---
 
-<h2 id="prismea">
-  <img src="assets/logo.png" alt="" width="28" align="center" /> Prismea
-</h2>
+<h2 id="modular-websites">Modular Websites</h2>
 
-**Swiss trading-card retail, built in-house.** Boutique TCG suisse — Pokémon, One Piece, scellé,
-singles et cartes gradées.
+**One platform, many online shops.** Une plateforme pour exploiter des boutiques en ligne :
+un seul code, une seule version, et des boutiques qui ne se ressemblent pas.
 
-<a href="https://prismea.ch">prismea.ch</a> · <a href="https://discord.gg/k9jXt7UW4C">Discord</a>
-· <a href="https://www.instagram.com/prismea_">Instagram</a> ·
-<a href="https://www.tiktok.com/@prismea_">TikTok</a>
+Modular Websites is a modular e-commerce platform for Swiss merchants. Every shop runs the same
+code and the same release, and what makes two shops differ is data, never code: its identity, the
+modules it switches on, its languages, the vocabulary of its catalogue and its look. A merchant's
+request becomes a feature for every shop, or it is declined. Optional means absent: a module a
+shop has not enabled does not exist for its visitors.
 
-Prismea is a trading-card shop based in Yverdon-les-Bains. We sell sealed product, singles and
-graded slabs, buy collections back from customers, and handle grading submissions on their
-behalf. We build and run our own storefront rather than renting one: pricing against live market
-data, reserving stock honestly during checkout and valuing a collection are exactly the parts an
-off-the-shelf platform treats as generic.
+Prismea, a Swiss trading-card shop, is the first shop running on it: [prismea.ch](https://prismea.ch).
 
-| Area           | What it does                                                                     |
-| -------------- | -------------------------------------------------------------------------------- |
-| Storefront     | Catalogue with faceted search, galleries, price-trend history, graded-card detail |
-| Checkout       | Guest and account checkout, card / TWINT / PayPal, stock reserved atomically     |
-| Rachat         | Collections submitted card by card or as a lot, live valuations, tracked offers  |
-| Grading        | Submission intake and status tracking through to the returned grade              |
-| Loyalty        | Points earned per order, spendable at checkout                                   |
-| Back office    | Catalogue, CSV and scan import, orders, customers, buyback and grading queues    |
+| Area            | What it does                                                                           |
+| --------------- | -------------------------------------------------------------------------------------- |
+| Shops           | Each shop has its own identity, domain, colours, type faces, header and transactional mails |
+| Modules         | A core of commerce, plus optional modules: promotions, loyalty, reviews, pre-orders, supplier catalogues, campaigns, accounting |
+| Storefront      | Catalogue with faceted search, variants, galleries, and its own vocabulary of conditions and properties |
+| Checkout        | Guest and account checkout, card and TWINT through Stripe, stock held while the customer pays |
+| Languages       | Content translated beside the original; a language is written before it is enabled    |
+| Accounting      | VAT, numbered receipts, an append-only ledger and its reports                          |
+| Back office     | Catalogue, orders, customers, returns, shipping labels, and a shop's settings          |
+| Trading-card pack | Optional, for shops that sell cards: Cardmarket prices, grading batches, collection buyback |
 
 Next.js on the front, Express and Prisma over PostgreSQL on the back, sharing schema and
 business-rule packages.
@@ -47,8 +45,6 @@ business-rule packages.
   <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white" />
   <img alt="Stripe" src="https://img.shields.io/badge/Stripe-635bff?logo=stripe&logoColor=white" />
 </p>
-
-Customers: support@prismea.ch, or find us on Discord.
 
 ---
 
@@ -74,9 +70,9 @@ Meetem is in development.
 
 ---
 
-## How we build
+## How I build
 
-Both projects hold themselves to the same rules:
+I hold both projects to the same rules:
 
 - **Nothing is trusted from the client.** Prices, totals and who may see what are decided on the
   server.
@@ -85,7 +81,7 @@ Both projects hold themselves to the same rules:
   it ships.
 - **The reasoning lives with the code,** in decision records next to it.
 
-The application code is private: it runs a live shop and holds personal data. This organisation
+The application code is private: it runs live shops and holds personal data. This organisation
 is their public face.
 
 <p align="center"><sub>Switzerland</sub></p>
