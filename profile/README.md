@@ -1,11 +1,11 @@
 <h1 align="center">Projects</h1>
 
 <p align="center">
-  <sub>Modular Websites and Meetem.</sub>
+  <sub>Modular Websites, NewsGenerator and Meetem.</sub>
 </p>
 
 <p align="center">
-  <a href="#modular-websites">Modular Websites</a> · <a href="#meetem">Meetem</a>
+  <a href="#modular-websites">Modular Websites</a> · <a href="#newsgenerator">NewsGenerator</a> · <a href="#meetem">Meetem</a>
 </p>
 
 ---
@@ -43,28 +43,6 @@ business-rule packages.
   <img alt="Prisma" src="https://img.shields.io/badge/Prisma-2d3748?logo=prisma&logoColor=white" />
   <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white" />
   <img alt="Stripe" src="https://img.shields.io/badge/Stripe-635bff?logo=stripe&logoColor=white" />
-</p>
-
----
-
-<h2 id="meetem">Meetem</h2>
-
-**A social map to meet people for real.** Une carte pour voir qui est autour de toi et se
-retrouver pour de vrai.
-
-Meetem is a mobile app (iOS and Android) built around a live map: friends who are free right
-now, meets to join — a drink, a dinner, a board-game night — and the public places they happen
-in. Privacy comes first: nobody is shown where you are unless you choose to, a position is only
-ever shared blurred, and a meet's exact address is revealed only to the people taking part.
-Meetem is in development.
-
-<p>
-  <img alt="React Native" src="https://img.shields.io/badge/React_Native-20232a?logo=react&logoColor=61dafb" />
-  <img alt="Expo" src="https://img.shields.io/badge/Expo-000020?logo=expo&logoColor=white" />
-  <img alt="NestJS" src="https://img.shields.io/badge/NestJS-e0234e?logo=nestjs&logoColor=white" />
-  <img alt="PostGIS" src="https://img.shields.io/badge/PostGIS-336791?logo=postgresql&logoColor=white" />
-  <img alt="Redis" src="https://img.shields.io/badge/Redis-dc382d?logo=redis&logoColor=white" />
-  <img alt="Mapbox" src="https://img.shields.io/badge/Mapbox-000000?logo=mapbox&logoColor=white" />
 </p>
 
 ---
@@ -110,6 +88,28 @@ my own server, in Docker.
   <img alt="Python" src="https://img.shields.io/badge/Python-3776ab?logo=python&logoColor=white" />
   <img alt="Ollama" src="https://img.shields.io/badge/Ollama-000000?logo=ollama&logoColor=white" />
   <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ed?logo=docker&logoColor=white" />
+</p>
+
+---
+
+<h2 id="meetem">Meetem</h2>
+
+**A social map to meet people for real.** Une carte pour voir qui est autour de toi et se
+retrouver pour de vrai.
+
+Meetem is a mobile app (iOS and Android) built around a live map: friends who are free right
+now, meets to join — a drink, a dinner, a board-game night — and the public places they happen
+in. Privacy comes first: nobody is shown where you are unless you choose to, a position is only
+ever shared blurred, and a meet's exact address is revealed only to the people taking part.
+Meetem is in development.
+
+<p>
+  <img alt="React Native" src="https://img.shields.io/badge/React_Native-20232a?logo=react&logoColor=61dafb" />
+  <img alt="Expo" src="https://img.shields.io/badge/Expo-000020?logo=expo&logoColor=white" />
+  <img alt="NestJS" src="https://img.shields.io/badge/NestJS-e0234e?logo=nestjs&logoColor=white" />
+  <img alt="PostGIS" src="https://img.shields.io/badge/PostGIS-336791?logo=postgresql&logoColor=white" />
+  <img alt="Redis" src="https://img.shields.io/badge/Redis-dc382d?logo=redis&logoColor=white" />
+  <img alt="Mapbox" src="https://img.shields.io/badge/Mapbox-000000?logo=mapbox&logoColor=white" />
 </p>
 
 ---
