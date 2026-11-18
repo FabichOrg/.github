@@ -116,14 +116,18 @@ my own server, in Docker.
 
 ## How I build
 
-I hold Modular Websites and Meetem to the same rules:
+I work the same way on all three projects:
 
-- **Nothing is trusted from the client.** Prices, totals and who may see what are decided on the
-  server.
-- **Tests run against the real thing:** a real database, over HTTP, without mocks.
-- **Every change passes one gate** (lint, types, tests, secret and dependency scanning) before
-  it ships.
-- **The reasoning lives with the code,** in decision records next to it.
+- **Architecture first.** I design the back end, the front end and the database myself before any
+  feature: the boundaries, the data model, the rules. An AI then writes most of the implementation
+  inside that frame, and I review it.
+- **Rules are tested against the real thing.** Business rules and SQL run against a real database;
+  only what is external (payments, mail, maps, the AI) is faked.
+- **One gate for every change.** On Modular Websites and Meetem, lint, types, tests, secret and
+  dependency scanning run in GitHub Actions, and nothing ships without passing. The more code an
+  AI writes, the more this gate matters.
+- **Decisions are written down, beside the code.** The code holds the logic; the reasons for a
+  choice, what was rejected, and how it works, live in documentation next to it.
 
 The application code of Modular Websites and Meetem is private. This organisation is their public face. NewsGenerator is the exception: its code
 is public, in its own organisation.
